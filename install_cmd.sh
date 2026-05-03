@@ -51,6 +51,5 @@ last_version="$(/usr/bin/soga -v 2>/dev/null || echo "unknown")"
 echo -e "${green}soga-cmd v${last_version}${plain} 安装完成"
 
 echo -e ""
-echo "执行 soga 命令："
+echo "执行 ${green}soga${plain} 命令运行管理脚本"
 echo "------------------------------------------"
-/usr/bin/soga
